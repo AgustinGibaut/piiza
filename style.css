@@ -123,6 +123,26 @@ body.loaded #loader {
     border-radius: 5px; 
 }
 
+.texto-superpuesto mark {
+    background-color: #e63946;
+    color: #ffffff;            
+    padding: 0.2em 0.6em;    
+    border-radius: 1em;        
+    position: relative;
+    z-index: 10;
+    font-weight: 500;         
+    font-size: 0.95em;        
+    box-shadow: 0 2px 8px rgba(230, 57, 70, 0.2); 
+    transition: all 0.25s ease;  
+    cursor: default;
+}
+
+.texto-superpuesto mark:hover {
+    background-color: #ff5a6e;  
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.35); 
+    transform: translateY(-2px);/
+}
+
 main {
     padding: 100px 50px 50px;
     text-align: center;
